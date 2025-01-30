@@ -4,6 +4,7 @@ const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
 const cors = require("cors");
 const userRouters = require("./routes/userRoute");
+require("dotenv").config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(morgan("dev"));

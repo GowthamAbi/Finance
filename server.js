@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const app = require("./app");
 const { MONGODB_URL, PORT } = require("./utils/config");
-
+require("dotenv").config();
 console.log(`Connecting to the database...`);
 
 //Connect to Data Base
