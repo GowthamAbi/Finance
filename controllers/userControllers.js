@@ -80,7 +80,7 @@ const userControllers = {
       path: "/",
   });
 
-      res.json({ message: "Successfully login" }); 
+      res.json({ message: "Successfully login",token:token }); 
 
     } catch (err) {
       console.log(err)
